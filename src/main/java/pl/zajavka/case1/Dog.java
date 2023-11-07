@@ -2,9 +2,9 @@ package pl.zajavka.case1;
 
 public class Dog extends Animal {
     private String zmiany;
+    private String name;
 
-    @Override
-    public String whatIsYourName() {
-        return "My name is Dog";
+    public void sniff() {
+        System.out.println("I'm soo sniffing!");
     }
 }
